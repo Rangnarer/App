@@ -43,4 +43,3 @@ class CalculateSumTest extends TestCase
 }
 
 
-?>
