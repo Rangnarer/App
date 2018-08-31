@@ -1,7 +1,7 @@
 <?php  
 
 namespace Calculator;
-use App\src\CalculateSum;
+use CalculateSum;
 use PHPUnit\Framework\TestCase;
 
 class CalculateSumTest extends TestCase
@@ -11,7 +11,7 @@ class CalculateSumTest extends TestCase
 		$a = 5;
 		$b = 5;
 		$c = $a + $b;
-		$sum = new \Calculator\CalculateSum($a,$b);
+		$sum = new \CalculateSum($a,$b);
 		$this->assertEquals($c, $sum->calculate());
 	}
 
@@ -20,7 +20,7 @@ class CalculateSumTest extends TestCase
 		$a = -5;
 		$b = -5;
 		$c = $a + $b;
-		$sum = new \Calculator\CalculateSum($a,$b);
+		$sum = new \CalculateSum($a,$b);
 		$this->assertEquals($c, $sum->calculate());
 	}
 
@@ -29,7 +29,7 @@ class CalculateSumTest extends TestCase
 		$a = null;
 		$b = null;
 		$c = $a + $b;
-		$sum = new \Calculator\CalculateSum($a,$b);
+		$sum = new \CalculateSum($a,$b);
 		$this->assertEquals($c, $sum->calculate());
 	}
 
@@ -38,7 +38,7 @@ class CalculateSumTest extends TestCase
 		$a = "10";
 		$b = "10";
 		$c = (int)$a + (int)$b;
-		$sum = new \Calculator\CalculateSum($a,$b);
+		$sum = new \CalculateSum($a,$b);
 		$this->assertEquals($c, $sum->calculate());
 	}
 }
