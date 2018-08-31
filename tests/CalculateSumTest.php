@@ -18,9 +18,9 @@ class CalculateSumTest extends TestCase
     {
         return array(
             array(1, 1, 2),
-            array(-2, -1, -1),
-            array(0, null, null),
-            array(20, '10', '10')
+            array(-1, -1, -2),
+            array(null, null, 0),
+            array('10', '10', 20)
         );
     }
 }
