@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e3c8efd-dc3f-4d0f-9bdb-161fb67036c4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/CalculateSumTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CalculateSumTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CalculateSumTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalculateSumTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/CalculateSumTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -24,6 +25,15 @@
               <folding>
                 <element signature="e#29#54#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -39,6 +49,7 @@
         <option value="$PROJECT_DIR$/src/CalculatorInterface.php" />
         <option value="$PROJECT_DIR$/src/CalculateSum.php" />
         <option value="$PROJECT_DIR$/tests/CalculateSumTest.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -114,12 +125,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535721584018</updated>
-      <workItem from="1535721585250" duration="2165000" />
+      <workItem from="1535721585250" duration="2381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2165000" />
+    <option name="totallyTimeSpent" value="2381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
@@ -176,6 +187,13 @@
           <folding>
             <element signature="e#29#54#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
