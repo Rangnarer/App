@@ -2,7 +2,6 @@
 
 namespace App\tests;
 
-use App\src\CalculateSum;
 use PHPUnit\Framework\TestCase;
 
 class CalculateSumTest extends TestCase
@@ -18,7 +17,7 @@ class CalculateSumTest extends TestCase
     public function provider()
     {
         return array(
-            array(2, 1, 1),
+            array(1, 1, 2),
             array(-2, -1, -1),
             array(0, null, null),
             array(20, '10', '10')
