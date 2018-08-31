@@ -1,7 +1,7 @@
 <?php
 
-namespace Calculator;  	
-use CalculatorInterface;	
+namespace App\src;  	
+use App\src\CalculatorInterface;	
 
 class CalculateSum implements CalculatorInterface
 {
