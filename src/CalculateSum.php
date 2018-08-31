@@ -14,7 +14,7 @@ class CalculateSum implements CalculatorInterface
 	}
 
 	public function calculate() {
-		$value;
+		$value = null;
 
 		if (is_string($this->a) || is_string($this->b)) {
 			$value = (int)$this->a + (int)$this->b;
