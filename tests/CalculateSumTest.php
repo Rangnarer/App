@@ -1,6 +1,6 @@
 <?php  
 
-use src\CalculateSum.php;
+use App\src\CalculateSum.php;
 use PHPUnit\Framework\TestCase;
 
 class CalculateSumTest extends TestCase
