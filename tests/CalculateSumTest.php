@@ -1,6 +1,6 @@
 <?php  
 
-namespace App\src;
+namespace App\tests;
 use App\src\CalculateSum;
 use PHPUnit\Framework\TestCase;
 
