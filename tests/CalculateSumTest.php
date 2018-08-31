@@ -1,6 +1,6 @@
 <?php  
 
-require $_SERVER['DOCUMENT_ROOT']. 'App\src\CalculateSum.php';
+require 'src\..\CalculateSum.php';
 use PHPUnit\Framework\TestCase;
 
 class CalculateSumTest extends TestCase
