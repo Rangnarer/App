@@ -1,8 +1,8 @@
-<?php  
+<?php
 
 namespace App\src;
 
-interface CalculatorInterface 
+interface CalculatorInterface
 {
     public function calculate();
 }
