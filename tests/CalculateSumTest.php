@@ -7,7 +7,25 @@ use PHPUnit\Framework\TestCase;
 
 class CalculateSumTest extends TestCase
 {
-    public function testCalculationOfPositiveNumbers()
+    /**
+     * @dataProvider provider
+     */
+    public function testAdd($a, $b, $c)
+    {
+        $this->assertEquals($c, $a + $b);
+    }
+
+    public function provider()
+    {
+        return array(
+            array(0, 0, 0),
+            array(0, 1, 1),
+            array(1, 0, 1),
+            array(1, 1, 3)
+        );
+    }
+
+    /*public function testCalculationOfPositiveNumbers()
     {
         $a = 5;
         $b = 5;
@@ -37,7 +55,7 @@ class CalculateSumTest extends TestCase
         $b = "10";
         $sum = new CalculateSum($a, $b);
         $this->assertEquals(20, $sum->calculate());
-    }
+    }*/
 }
 
 
