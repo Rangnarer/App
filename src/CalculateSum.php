@@ -3,7 +3,7 @@
 namespace App\src;  	
 use App\src\CalculatorInterface;	
 
-class CalculateSum implements App\src\CalculatorInterface
+class CalculateSum implements CalculatorInterface
 {
 	private $a;
 	private $b;
