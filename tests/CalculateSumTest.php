@@ -1,7 +1,7 @@
 <?php  
 
 namespace Calculator;
-use CalculateSum.php;
+use CalculateSum;
 use PHPUnit\Framework\TestCase;
 
 class CalculateSumTest extends TestCase
