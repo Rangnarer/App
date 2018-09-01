@@ -13,7 +13,7 @@ class CalculateSumTest extends TestCase
      */
     public function testAdd($a, $b, $c)
     {
-        $calc = new CalculateSum($a, $b);
+        $calc = new Calculator\CalculateSum($a, $b);
         $this->assertEquals($c, $calc->calculate());
     }
 
