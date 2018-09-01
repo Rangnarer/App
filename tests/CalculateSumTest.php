@@ -22,9 +22,9 @@ class CalculateSumTest extends TestCase
             array(1, 1, 2),
             array(-1, -1, -2),
             array(null, null, 0),
-            array('10', '10', 20)/*,
+            array('10', '10', 20),
             array(1.1, 1.1, 2.2),
-            array('1.1', '1.1', 2.2)*/
+            array('1.1', '1.1', 2.2)
         );
     }
 }

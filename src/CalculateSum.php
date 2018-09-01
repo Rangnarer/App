@@ -18,11 +18,12 @@ class CalculateSum implements CalculatorInterface
     {
         $value = null;
 
-        if (is_string($this->a) || is_string($this->b)) {
+        /*if (is_string($this->a) || is_string($this->b)) {
             $value = (int)$this->a + (int)$this->b;
         } else {
             $value = $this->a + $this->b;
-        }
+        }*/
+        $value = (float)$this->a + (float)$this->b;
         return $value;
     }
 }
