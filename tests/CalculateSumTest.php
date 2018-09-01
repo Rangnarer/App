@@ -2,7 +2,8 @@
 
 namespace App\tests;
 
-use App\src\CalculateSum;
+/*use App\src\CalculateSum;*/
+use Calculator\CalculateSum;
 use PHPUnit\Framework\TestCase;
 
 class CalculateSumTest extends TestCase
@@ -22,9 +23,9 @@ class CalculateSumTest extends TestCase
             array(1, 1, 2),
             array(-1, -1, -2),
             array(null, null, 0),
-            array('10', '10', 20),
+            array('10', '10', 20)/*,
             array(1.1, 1.1, 2.2),
-            array('1.1', '1.1', 2.2)
+            array('1.1', '1.1', 2.2)*/
         );
     }
 }
