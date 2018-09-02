@@ -21,4 +21,3 @@ class CalculateSum implements CalculatorInterface
         return $value;
     }
 }
-

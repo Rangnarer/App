@@ -6,4 +6,3 @@ interface CalculatorInterface
 {
     public function calculate();
 }
-
