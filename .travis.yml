@@ -3,8 +3,10 @@ language: php
 php:
     - 7.2
 
-before_script:
-  - composer install
+before_install:
   - ./vendor/bin/psalm --init
   - ./vendor/bin/psalm src tests
   - vendor/bin/phpstan analyse src tests
+
+before_script:
+  - composer install
