@@ -13,7 +13,7 @@ class CalculateSum implements CalculatorInterface
         $this->b = $b;
     }
 
-    public function calculate()
+    public function calculate(): float
     {
         $value = (float)$this->a + (float)$this->b;
 
