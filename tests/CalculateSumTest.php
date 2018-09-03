@@ -8,7 +8,6 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class CalculateSumTest
  * @package App\tests
- * @mixin TestCase
  */
 
 class CalculateSumTest extends TestCase
