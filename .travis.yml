@@ -5,6 +5,5 @@ php:
 
 before_script:
   - composer install
-  - ./vendor/bin/psalm
+  - ./vendor/bin/psalm src tests
   - vendor/bin/phpstan analyse src tests
-
