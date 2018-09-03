@@ -5,18 +5,29 @@ namespace App\tests;
 use App\src\CalculateSum;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Class CalculateSumTest
+ * @package App\tests
+ */
 class CalculateSumTest extends TestCase
 {
     /**
+     * @param $a
+     * @param $b
+     * @param $c
      * @dataProvider provider
+     * @return void
      */
-    public function testAdd($a, $b, $c)
+    public function testAdd($a, $b, $c): void
     {
         $calc = new CalculateSum($a, $b);
         $this->assertSame($c, $calc->calculate());
     }
 
-    public function provider()
+    /**
+     * @return array
+     */
+    public function provider(): array
     {
         return array(
             array(1, 1, 2.0),
