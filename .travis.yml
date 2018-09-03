@@ -10,4 +10,5 @@ script:
     - vendor/bin/psalm --init
     - vendor/bin/psalm src tests
     - vendor/bin/phpstan analyse src tests
+    - phpunit
     
