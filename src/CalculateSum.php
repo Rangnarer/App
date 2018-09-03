@@ -19,8 +19,8 @@ class CalculateSum implements CalculatorInterface
 
     /**
      * CalculateSum constructor.
-     * @param $a
-     * @param $b
+     * @param mixed $a
+     * @param mixed $b
      */
     public function __construct($a, $b)
     {
