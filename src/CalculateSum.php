@@ -9,13 +9,13 @@ class CalculateSum implements CalculatorInterface
 
     public function __construct($a, $b)
     {
-        $this->a = $a;
-        $this->b = $b;
+        $this->a = (float)$a;
+        $this->b = (float)$b;
     }
 
     public function calculate(): float
     {
-        $value = (float)$this->a + (float)$this->b;
+        $value = $this->a + $this->b;
 
         return $value;
     }
