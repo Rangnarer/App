@@ -14,10 +14,18 @@ class CalculateSum implements CalculatorInterface
         $this->b = $b;
     }
 
-    public function calculate()
+    public function calculate($c)
     {
         $value = null;
         $value = (float)$this->a + (float)$this->b;
+        if(is_integer($c)){
+            $value = (int) $value;        
+        }
+        
+        if(is_string($c)) {
+            $value = (string)$value;
+        }
+
         return $value;
     }
 }
