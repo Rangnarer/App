@@ -4,5 +4,5 @@ namespace App\src;
 
 interface CalculatorInterface
 {
-    public function calculate(float $c);
+    public function calculate();
 }
