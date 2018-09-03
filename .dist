@@ -1,0 +1,9 @@
+parameters:
+        %rootDir%:
+            -vendor/phpstan/phpstan
+        %currentWorkingDirectory%:
+            -App
+        tmpDir:
+            -App
+        level:
+        paths:
