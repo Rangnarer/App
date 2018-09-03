@@ -2,6 +2,10 @@
 declare(strict_types = 1);
 namespace App\src;
 
+/**
+ * Class CalculateSum
+ * @package App\src
+ */
 class CalculateSum implements CalculatorInterface
 {
     private $a;
