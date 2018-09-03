@@ -19,10 +19,10 @@ class CalculateSumTest extends TestCase
     public function provider()
     {
         return array(
-            array(1, 1, 2),
-            array(-1, -1, -2),
-            array(null, null, 0),
-            array('10', '10', 20),
+            array(1, 1, 2.0),
+            array(-1, -1, -2.0),
+            array(null, null, 0.0),
+            array('10', '10', 20.0),
             array(1.1, 1.1, 2.2),
             array('1.1', '1.1', 2.2)
         );
