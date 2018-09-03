@@ -8,15 +8,29 @@ namespace App\src;
  */
 class CalculateSum implements CalculatorInterface
 {
+    /**
+     * @var float
+     */
     private $a;
+    /**
+     * @var float
+     */
     private $b;
 
+    /**
+     * CalculateSum constructor.
+     * @param $a
+     * @param $b
+     */
     public function __construct($a, $b)
     {
         $this->a = (float)$a;
         $this->b = (float)$b;
     }
 
+    /**
+     * @return float
+     */
     public function calculate(): float
     {
         $value = $this->a + $this->b;
