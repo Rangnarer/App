@@ -5,7 +5,6 @@ namespace App\src;
 class CalculateSum implements CalculatorInterface
 {
     private $a;
-
     private $b;
 
     public function __construct($a, $b)
@@ -16,13 +15,13 @@ class CalculateSum implements CalculatorInterface
 
     public function calculate($c)
     {
-        $value = null;
         $value = (float)$this->a + (float)$this->b;
-        if(is_integer($c)){
-            $value = (int) $value;        
+
+        if (is_integer($c)) {
+            $value = (int) $value;
         }
         
-        if(is_string($c)) {
+        if (is_string($c)) {
             $value = (string)$value;
         }
 
