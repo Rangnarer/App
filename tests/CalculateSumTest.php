@@ -14,9 +14,9 @@ use PHPUnit\Framework\TestCase;
 class CalculateSumTest extends TestCase
 {
     /**
-     * @param $a
-     * @param $b
-     * @param $c
+     * @param $a mixed
+     * @param $b mixed
+     * @param $c mixed
      * @dataProvider provider
      * @return void
      */
