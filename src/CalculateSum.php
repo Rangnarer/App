@@ -17,7 +17,7 @@ class CalculateSum implements CalculatorInterface
     {
         $value = (float)$this->a + (float)$this->b;
 
-        if (is_integer($c)) {
+        if (is_int($c)) {
             $value = (int) $value;
         }
         
