@@ -29,13 +29,14 @@ class CalculateSumTest extends TestCase
      */
     public function provider(): array
     {
-        return array(
+        return [
             [1, 1, 2.0],
             [-1, -1, -2.0],
             [null, null, 0.0],
             ['10', '10', 20.0],
+            ['10', '10', 20.0],
             [1.1, 1.1, 2.2],
             ['1.1', '1.1', 2.2],
-        );
+        ];
     }
 }
