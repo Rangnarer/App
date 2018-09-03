@@ -10,7 +10,7 @@ class CalculateSumTest extends TestCase
     /**
      * @dataProvider provider
      */
-    public function testAdd($a, $b, $c)
+    public function testAdd(float $a, float $b, float $c)
     {
         $calc = new CalculateSum($a, $b);
         $this->assertSame($c, $calc->calculate($c));
